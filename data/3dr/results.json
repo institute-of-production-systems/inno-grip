@@ -1,0 +1,2740 @@
+{
+  "multiple": [
+    {
+      "sample": "G-LS-I-LO-33",
+      "surface": "G",
+      "size": "LS",
+      "shape": "I",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 42.8865637532334,
+          "cvpr1": 0.470288506281992,
+          "cvpr05": 0.36096731037692
+        },
+        "vggt": {
+          "chamfer": 38.3135237635,
+          "cvpr1": 0.748391735302389,
+          "cvpr05": 0.37062130186092
+        }
+      }
+    },
+    {
+      "sample": "G-LS-P-LO-34",
+      "surface": "G",
+      "size": "LS",
+      "shape": "P",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 47.6025254415625,
+          "cvpr1": 0.301765682465384,
+          "cvpr05": 0.233291444251012
+        },
+        "vggt": {
+          "chamfer": 21.3115987246496,
+          "cvpr1": 0.729933302667893,
+          "cvpr05": 0.433377414903404
+        }
+      }
+    },
+    {
+      "sample": "G-MS-I-HI-4",
+      "surface": "G",
+      "size": "MS",
+      "shape": "I",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 2.20992676441408,
+          "cvpr1": 0.854573927828363,
+          "cvpr05": 0.627837311796684
+        },
+        "vggt": {
+          "chamfer": 2.81139928205761,
+          "cvpr1": 0.886962378222598,
+          "cvpr05": 0.727361821525904
+        }
+      }
+    },
+    {
+      "sample": "G-MS-I-LO-1",
+      "surface": "G",
+      "size": "MS",
+      "shape": "I",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 9.30920746443313,
+          "cvpr1": 0.751590925191705,
+          "cvpr05": 0.515796879465889
+        },
+        "vggt": {
+          "chamfer": 8.26440318999846,
+          "cvpr1": 0.877372380401263,
+          "cvpr05": 0.676552958440461
+        }
+      }
+    },
+    {
+      "sample": "G-MS-O-LO-10",
+      "surface": "G",
+      "size": "MS",
+      "shape": "O",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 1.31902038541105,
+          "cvpr1": 0.916744413252631,
+          "cvpr05": 0.634166846619439
+        },
+        "vggt": {
+          "chamfer": 2.37283879548313,
+          "cvpr1": 0.868958583036488,
+          "cvpr05": 0.640524014534036
+        }
+      }
+    },
+    {
+      "sample": "G-MS-O-LO-2",
+      "surface": "G",
+      "size": "MS",
+      "shape": "O",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 0.958779842019386,
+          "cvpr1": 0.929208642712986,
+          "cvpr05": 0.666952194314796
+        },
+        "vggt": {
+          "chamfer": 2.6646255259383,
+          "cvpr1": 0.844414076991275,
+          "cvpr05": 0.625189942131837
+        }
+      }
+    },
+    {
+      "sample": "G-TS-O-HI-7",
+      "surface": "G",
+      "size": "TS",
+      "shape": "O",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 0.448949086037033,
+          "cvpr1": 0.96745448692582,
+          "cvpr05": 0.838863521263356
+        },
+        "vggt": {
+          "chamfer": 0.982102166735394,
+          "cvpr1": 0.97733599469915,
+          "cvpr05": 0.731047512764914
+        }
+      }
+    },
+    {
+      "sample": "G-TS-P-HI-3",
+      "surface": "G",
+      "size": "TS",
+      "shape": "P",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 1.29367886338524,
+          "cvpr1": 0.881124732809226,
+          "cvpr05": 0.584084857035724
+        },
+        "vggt": {
+          "chamfer": 1.79852219141013,
+          "cvpr1": 0.949942979208688,
+          "cvpr05": 0.693219632173343
+        }
+      }
+    },
+    {
+      "sample": "G-TS-P-HI-5",
+      "surface": "G",
+      "size": "TS",
+      "shape": "P",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 1.20366336544435,
+          "cvpr1": 0.968493799841767,
+          "cvpr05": 0.698967419932843
+        },
+        "vggt": {
+          "chamfer": 1.48411152320168,
+          "cvpr1": 0.995102419681515,
+          "cvpr05": 0.830990732051875
+        }
+      }
+    },
+    {
+      "sample": "M-LS-P-HI-17",
+      "surface": "M",
+      "size": "LS",
+      "shape": "P",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 0.771862190436029,
+          "cvpr1": 0.924459731460237,
+          "cvpr05": 0.749190321966089
+        },
+        "vggt": {
+          "chamfer": 0.570340672547077,
+          "cvpr1": 0.949382208262705,
+          "cvpr05": 0.869505517333068
+        }
+      }
+    },
+    {
+      "sample": "M-LS-P-HI-19",
+      "surface": "M",
+      "size": "LS",
+      "shape": "P",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 1.17869619449476,
+          "cvpr1": 0.866121433575675,
+          "cvpr05": 0.584536999358138
+        },
+        "vggt": {
+          "chamfer": 2.48787760209532,
+          "cvpr1": 0.918575346605085,
+          "cvpr05": 0.649959815423743
+        }
+      }
+    },
+    {
+      "sample": "M-LS-P-HI-20",
+      "surface": "M",
+      "size": "LS",
+      "shape": "P",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 1.20500329877666,
+          "cvpr1": 0.894601451388484,
+          "cvpr05": 0.726152487439907
+        },
+        "vggt": {
+          "chamfer": 1.73592643369929,
+          "cvpr1": 0.931633704892309,
+          "cvpr05": 0.737086899729156
+        }
+      }
+    },
+    {
+      "sample": "M-LS-P-HI-26",
+      "surface": "M",
+      "size": "LS",
+      "shape": "P",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 1.60646554407673,
+          "cvpr1": 0.866738714078871,
+          "cvpr05": 0.610151174386728
+        },
+        "vggt": {
+          "chamfer": 1.05451589575524,
+          "cvpr1": 0.952471399558757,
+          "cvpr05": 0.703611555809735
+        }
+      }
+    },
+    {
+      "sample": "M-LS-P-HI-29",
+      "surface": "M",
+      "size": "LS",
+      "shape": "P",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 0.634225118708026,
+          "cvpr1": 0.962746594947414,
+          "cvpr05": 0.718728972424167
+        },
+        "vggt": {
+          "chamfer": 1.77102150551297,
+          "cvpr1": 0.930984632732425,
+          "cvpr05": 0.71838723201249
+        }
+      }
+    },
+    {
+      "sample": "M-LS-P-LO-18",
+      "surface": "M",
+      "size": "LS",
+      "shape": "P",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 0.672226586976216,
+          "cvpr1": 0.972703127361254,
+          "cvpr05": 0.732082416433603
+        },
+        "vggt": {
+          "chamfer": 0.441029834181648,
+          "cvpr1": 0.980315033981356,
+          "cvpr05": 0.900716061599101
+        }
+      }
+    },
+    {
+      "sample": "M-MS-P-HI-27",
+      "surface": "M",
+      "size": "MS",
+      "shape": "P",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 0.505641157196123,
+          "cvpr1": 0.977949594433303,
+          "cvpr05": 0.79118592736337
+        },
+        "vggt": {
+          "chamfer": 1.71910019409854,
+          "cvpr1": 0.989558172558309,
+          "cvpr05": 0.879236405817357
+        }
+      }
+    },
+    {
+      "sample": "M-MS-P-HI-28",
+      "surface": "M",
+      "size": "MS",
+      "shape": "P",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 0.468130973669683,
+          "cvpr1": 0.981570826270266,
+          "cvpr05": 0.782790744845772
+        },
+        "vggt": {
+          "chamfer": 0.812779076495055,
+          "cvpr1": 0.955247946644891,
+          "cvpr05": 0.772523694153197
+        }
+      }
+    },
+    {
+      "sample": "M-MS-P-HI-35",
+      "surface": "M",
+      "size": "MS",
+      "shape": "P",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 5.30910842933956,
+          "cvpr1": 0.79261842328285,
+          "cvpr05": 0.540970816674477
+        },
+        "vggt": {
+          "chamfer": 5.89902931855717,
+          "cvpr1": 0.836142480895469,
+          "cvpr05": 0.699719667192083
+        }
+      }
+    },
+    {
+      "sample": "M-MS-P-HI-9",
+      "surface": "M",
+      "size": "MS",
+      "shape": "P",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 0.19153556795886,
+          "cvpr1": 0.999888841281519,
+          "cvpr05": 0.934612399653993
+        },
+        "vggt": {
+          "chamfer": 0.311733433440613,
+          "cvpr1": 0.999535154449987,
+          "cvpr05": 0.988223239043793
+        }
+      }
+    },
+    {
+      "sample": "M-TS-P-HI-16",
+      "surface": "M",
+      "size": "TS",
+      "shape": "P",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 1.14615433261089,
+          "cvpr1": 0.960847782146474,
+          "cvpr05": 0.726916406663195
+        },
+        "vggt": {
+          "chamfer": 2.0806158056062,
+          "cvpr1": 0.966029010913395,
+          "cvpr05": 0.845135869620868
+        }
+      }
+    },
+    {
+      "sample": "R-LS-I-HI-36",
+      "surface": "R",
+      "size": "LS",
+      "shape": "I",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 21.1127424375993,
+          "cvpr1": 0.727922714816909,
+          "cvpr05": 0.548684365104734
+        },
+        "vggt": {
+          "chamfer": 19.7846334196251,
+          "cvpr1": 0.753810494934356,
+          "cvpr05": 0.550272870477298
+        }
+      }
+    },
+    {
+      "sample": "R-LS-P-HI-30",
+      "surface": "R",
+      "size": "LS",
+      "shape": "P",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 2.22897641836881,
+          "cvpr1": 0.784304898935123,
+          "cvpr05": 0.541502133522049
+        },
+        "vggt": {
+          "chamfer": 1.91633591366967,
+          "cvpr1": 0.881619885514244,
+          "cvpr05": 0.688177063486414
+        }
+      }
+    },
+    {
+      "sample": "R-LS-P-LO-31",
+      "surface": "R",
+      "size": "LS",
+      "shape": "P",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 13.0201443396834,
+          "cvpr1": 0.716976367176362,
+          "cvpr05": 0.632560236138153
+        },
+        "vggt": {
+          "chamfer": 18.0051530204856,
+          "cvpr1": 0.843123527943299,
+          "cvpr05": 0.525644991479709
+        }
+      }
+    },
+    {
+      "sample": "R-MS-I-HI-11",
+      "surface": "R",
+      "size": "MS",
+      "shape": "I",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 2.53445811875754,
+          "cvpr1": 0.854974533267694,
+          "cvpr05": 0.643193566099898
+        },
+        "vggt": {
+          "chamfer": 2.44571502660984,
+          "cvpr1": 0.899905883910878,
+          "cvpr05": 0.834466825260948
+        }
+      }
+    },
+    {
+      "sample": "R-MS-I-HI-8",
+      "surface": "R",
+      "size": "MS",
+      "shape": "I",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 4.01272844630028,
+          "cvpr1": 0.828549706791346,
+          "cvpr05": 0.589540078453126
+        },
+        "vggt": {
+          "chamfer": 5.05974241160042,
+          "cvpr1": 0.879912506905068,
+          "cvpr05": 0.718184047620817
+        }
+      }
+    },
+    {
+      "sample": "R-MS-I-LO-13",
+      "surface": "R",
+      "size": "MS",
+      "shape": "I",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 1.0922717151061,
+          "cvpr1": 0.906376703197331,
+          "cvpr05": 0.787705920756559
+        },
+        "vggt": {
+          "chamfer": 0.755235849501759,
+          "cvpr1": 0.961365870155674,
+          "cvpr05": 0.913429365574238
+        }
+      }
+    },
+    {
+      "sample": "R-MS-I-LO-14",
+      "surface": "R",
+      "size": "MS",
+      "shape": "I",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 1.40079357593245,
+          "cvpr1": 0.9106534145099,
+          "cvpr05": 0.711332479079381
+        },
+        "vggt": {
+          "chamfer": 2.13793116573503,
+          "cvpr1": 0.820125257015338,
+          "cvpr05": 0.653030418918129
+        }
+      }
+    },
+    {
+      "sample": "R-MS-I-LO-21",
+      "surface": "R",
+      "size": "MS",
+      "shape": "I",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 3.87187170902919,
+          "cvpr1": 0.828486614532227,
+          "cvpr05": 0.606211531027921
+        },
+        "vggt": {
+          "chamfer": 6.85677078755833,
+          "cvpr1": 0.853657329873368,
+          "cvpr05": 0.637596693078173
+        }
+      }
+    },
+    {
+      "sample": "R-MS-I-LO-22",
+      "surface": "R",
+      "size": "MS",
+      "shape": "I",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 3.6694035053065,
+          "cvpr1": 0.898566498664761,
+          "cvpr05": 0.618777504043329
+        },
+        "vggt": {
+          "chamfer": 4.56310296452434,
+          "cvpr1": 0.912664618395856,
+          "cvpr05": 0.740896879131634
+        }
+      }
+    },
+    {
+      "sample": "R-MS-I-LO-23",
+      "surface": "R",
+      "size": "MS",
+      "shape": "I",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 2.47693748303258,
+          "cvpr1": 0.831345950011967,
+          "cvpr05": 0.557176804458577
+        },
+        "vggt": {
+          "chamfer": 4.00721713842893,
+          "cvpr1": 0.791640262387175,
+          "cvpr05": 0.588660575128025
+        }
+      }
+    },
+    {
+      "sample": "R-MS-I-LO-24",
+      "surface": "R",
+      "size": "MS",
+      "shape": "I",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 2.00857235885183,
+          "cvpr1": 0.859342222988778,
+          "cvpr05": 0.631728955339722
+        },
+        "vggt": {
+          "chamfer": 1.66793018647111,
+          "cvpr1": 0.944178539026319,
+          "cvpr05": 0.825286132667289
+        }
+      }
+    },
+    {
+      "sample": "R-MS-O-LO-32",
+      "surface": "R",
+      "size": "MS",
+      "shape": "O",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 2.99217641897386,
+          "cvpr1": 0.809387433193957,
+          "cvpr05": 0.60191969616193
+        },
+        "vggt": {
+          "chamfer": 4.23313425428774,
+          "cvpr1": 0.794250877989239,
+          "cvpr05": 0.60580376224448
+        }
+      }
+    },
+    {
+      "sample": "R-MS-P-LO-12",
+      "surface": "R",
+      "size": "MS",
+      "shape": "P",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 8.27198570155477,
+          "cvpr1": 0.812664855859238,
+          "cvpr05": 0.549427927165301
+        },
+        "vggt": {
+          "chamfer": 9.76473514275906,
+          "cvpr1": 0.863816643166273,
+          "cvpr05": 0.601855268527637
+        }
+      }
+    },
+    {
+      "sample": "R-TS-I-HI-6",
+      "surface": "R",
+      "size": "TS",
+      "shape": "I",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 0.260375771769632,
+          "cvpr1": 0.99052471764187,
+          "cvpr05": 0.907393443722473
+        },
+        "vggt": {
+          "chamfer": 1.34898114684084,
+          "cvpr1": 0.986274214491857,
+          "cvpr05": 0.798914392943351
+        }
+      }
+    },
+    {
+      "sample": "R-TS-P-LO-15",
+      "surface": "R",
+      "size": "TS",
+      "shape": "P",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 0.898825977897445,
+          "cvpr1": 0.946745794767696,
+          "cvpr05": 0.677697835771944
+        },
+        "vggt": {
+          "chamfer": 1.22800069768994,
+          "cvpr1": 0.964344116675359,
+          "cvpr05": 0.841528714829814
+        }
+      }
+    },
+    {
+      "sample": "T-LS-I-HI-37",
+      "surface": "T",
+      "size": "LS",
+      "shape": "I",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 4.12533510893719,
+          "cvpr1": 0.823016447986262,
+          "cvpr05": 0.565041870040663
+        },
+        "vggt": {
+          "chamfer": 3.28222853976326,
+          "cvpr1": 0.888101467437639,
+          "cvpr05": 0.678927478240052
+        }
+      }
+    },
+    {
+      "sample": "T-TS-P-HI-25",
+      "surface": "T",
+      "size": "TS",
+      "shape": "P",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 1.61152296610204,
+          "cvpr1": 0.901266057013569,
+          "cvpr05": 0.617771058369833
+        },
+        "vggt": {
+          "chamfer": 1.24131695618759,
+          "cvpr1": 0.932164270788487,
+          "cvpr05": 0.747879411548518
+        }
+      }
+    }
+  ],
+  "single": [
+    {
+      "sample": "G-LS-I-LO-33",
+      "surface": "G",
+      "size": "LS",
+      "shape": "I",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 7.35634780163414,
+          "cvpr1": 0.887402934524672,
+          "cvpr05": 0.657246627079179
+        },
+        "vggt": {
+          "chamfer": 14.3508435347245,
+          "cvpr1": 0.767163566892044,
+          "cvpr05": 0.485383910598086
+        }
+      },
+      "orientation": "orientation_a"
+    },
+    {
+      "sample": "G-LS-P-LO-34",
+      "surface": "G",
+      "size": "LS",
+      "shape": "P",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 3.41900387373844,
+          "cvpr1": 0.901846233636998,
+          "cvpr05": 0.65918151784566
+        },
+        "vggt": {
+          "chamfer": 5.18030379916044,
+          "cvpr1": 0.911330737619014,
+          "cvpr05": 0.826461888943231
+        }
+      },
+      "orientation": "-"
+    },
+    {
+      "sample": "G-MS-I-HI-4",
+      "surface": "G",
+      "size": "MS",
+      "shape": "I",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 1.31979931217531,
+          "cvpr1": 0.938852404535251,
+          "cvpr05": 0.670058658141493
+        },
+        "vggt": {
+          "chamfer": 0.549573795090707,
+          "cvpr1": 0.992227857275942,
+          "cvpr05": 0.916987946626919
+        }
+      },
+      "orientation": "orientation_a"
+    },
+    {
+      "sample": "G-MS-I-HI-4",
+      "surface": "G",
+      "size": "MS",
+      "shape": "I",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 1.62241723453684,
+          "cvpr1": 0.907717778702095,
+          "cvpr05": 0.7152096433494
+        },
+        "vggt": {
+          "chamfer": 1.0369610622931,
+          "cvpr1": 0.996211533594063,
+          "cvpr05": 0.766074446630796
+        }
+      },
+      "orientation": "orientation_b"
+    },
+    {
+      "sample": "G-MS-I-LO-1",
+      "surface": "G",
+      "size": "MS",
+      "shape": "I",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 4.28567021745835,
+          "cvpr1": 0.890947430571664,
+          "cvpr05": 0.515697024650486
+        },
+        "vggt": {
+          "chamfer": 5.72304196951559,
+          "cvpr1": 0.941798305824598,
+          "cvpr05": 0.748444264497177
+        }
+      },
+      "orientation": "orientation_a"
+    },
+    {
+      "sample": "G-MS-I-LO-1",
+      "surface": "G",
+      "size": "MS",
+      "shape": "I",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 4.24903165649906,
+          "cvpr1": 0.828089844953714,
+          "cvpr05": 0.514073626934913
+        },
+        "vggt": {
+          "chamfer": 2.37903138998339,
+          "cvpr1": 0.943808079809729,
+          "cvpr05": 0.835657401935941
+        }
+      },
+      "orientation": "orientation_b"
+    },
+    {
+      "sample": "G-MS-O-LO-10",
+      "surface": "G",
+      "size": "MS",
+      "shape": "O",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 0.652051302749074,
+          "cvpr1": 0.9820752591486,
+          "cvpr05": 0.807441477172393
+        },
+        "vggt": {
+          "chamfer": 2.69274903283312,
+          "cvpr1": 0.974458176025229,
+          "cvpr05": 0.82034364624269
+        }
+      },
+      "orientation": "-"
+    },
+    {
+      "sample": "G-MS-O-LO-2",
+      "surface": "G",
+      "size": "MS",
+      "shape": "O",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 1.06828929060938,
+          "cvpr1": 0.965888508144717,
+          "cvpr05": 0.712001922342997
+        },
+        "vggt": {
+          "chamfer": 1.0323847477345,
+          "cvpr1": 0.994527910695503,
+          "cvpr05": 0.717208504842799
+        }
+      },
+      "orientation": "-"
+    },
+    {
+      "sample": "G-TS-O-HI-7",
+      "surface": "G",
+      "size": "TS",
+      "shape": "O",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 0.301973787380228,
+          "cvpr1": 0.997009235946327,
+          "cvpr05": 0.891442912835128
+        },
+        "vggt": {
+          "chamfer": 1.83686099791798,
+          "cvpr1": 0.992678781804257,
+          "cvpr05": 0.598050369496204
+        }
+      },
+      "orientation": "-"
+    },
+    {
+      "sample": "G-TS-P-HI-3",
+      "surface": "G",
+      "size": "TS",
+      "shape": "P",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 0.503586651051762,
+          "cvpr1": 0.989778383203354,
+          "cvpr05": 0.820048942315672
+        },
+        "vggt": {
+          "chamfer": 1.65246008450294,
+          "cvpr1": 0.969237993648429,
+          "cvpr05": 0.67134971895614
+        }
+      },
+      "orientation": "-"
+    },
+    {
+      "sample": "G-TS-P-HI-5",
+      "surface": "G",
+      "size": "TS",
+      "shape": "P",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 0.384303783195181,
+          "cvpr1": 0.998560155728408,
+          "cvpr05": 0.838278943685197
+        },
+        "vggt": {
+          "chamfer": 1.24952075007348,
+          "cvpr1": 0.99871611637315,
+          "cvpr05": 0.889240812964802
+        }
+      },
+      "orientation": "-"
+    },
+    {
+      "sample": "M-LS-P-HI-17",
+      "surface": "M",
+      "size": "LS",
+      "shape": "P",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 0.458719232749053,
+          "cvpr1": 0.987153383750242,
+          "cvpr05": 0.783510277293
+        },
+        "vggt": {
+          "chamfer": 0.396295713742085,
+          "cvpr1": 0.996130382581043,
+          "cvpr05": 0.952465360028556
+        }
+      },
+      "orientation": "-"
+    },
+    {
+      "sample": "M-LS-P-HI-19",
+      "surface": "M",
+      "size": "LS",
+      "shape": "P",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 0.192458441759612,
+          "cvpr1": 0.999677395289568,
+          "cvpr05": 0.929821377804393
+        },
+        "vggt": {
+          "chamfer": 3.79301838242621,
+          "cvpr1": 0.998471232102106,
+          "cvpr05": 0.919690207403518
+        }
+      },
+      "orientation": "-"
+    },
+    {
+      "sample": "M-LS-P-HI-20",
+      "surface": "M",
+      "size": "LS",
+      "shape": "P",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 0.319025043539876,
+          "cvpr1": 0.994594332826867,
+          "cvpr05": 0.889152547160864
+        },
+        "vggt": {
+          "chamfer": 1.41983827052358,
+          "cvpr1": 0.990503479494355,
+          "cvpr05": 0.899923307452128
+        }
+      },
+      "orientation": "-"
+    },
+    {
+      "sample": "M-LS-P-HI-26",
+      "surface": "M",
+      "size": "LS",
+      "shape": "P",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 0.226520749325149,
+          "cvpr1": 0.995781847356361,
+          "cvpr05": 0.9306051083814
+        },
+        "vggt": {
+          "chamfer": 1.54298347166801,
+          "cvpr1": 0.998460157590714,
+          "cvpr05": 0.751052056803976
+        }
+      },
+      "orientation": "-"
+    },
+    {
+      "sample": "M-LS-P-HI-29",
+      "surface": "M",
+      "size": "LS",
+      "shape": "P",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 0.415821547951963,
+          "cvpr1": 0.985236776672694,
+          "cvpr05": 0.823462929475588
+        },
+        "vggt": {
+          "chamfer": 0.586436668611933,
+          "cvpr1": 0.996737353955579,
+          "cvpr05": 0.921173985511502
+        }
+      },
+      "orientation": "-"
+    },
+    {
+      "sample": "M-LS-P-LO-18",
+      "surface": "M",
+      "size": "LS",
+      "shape": "P",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 0.475565857086279,
+          "cvpr1": 0.996008699504612,
+          "cvpr05": 0.748614523339643
+        },
+        "vggt": {
+          "chamfer": 1.60291764824514,
+          "cvpr1": 0.986525093328972,
+          "cvpr05": 0.529577561473962
+        }
+      },
+      "orientation": "-"
+    },
+    {
+      "sample": "M-MS-P-HI-27",
+      "surface": "M",
+      "size": "MS",
+      "shape": "P",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 0.277439307618568,
+          "cvpr1": 0.987174829973159,
+          "cvpr05": 0.913799923311336
+        },
+        "vggt": {
+          "chamfer": 0.333669061404387,
+          "cvpr1": 0.999533813646546,
+          "cvpr05": 0.974616052148292
+        }
+      },
+      "orientation": "-"
+    },
+    {
+      "sample": "M-MS-P-HI-28",
+      "surface": "M",
+      "size": "MS",
+      "shape": "P",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 0.380594206096468,
+          "cvpr1": 0.991065042861604,
+          "cvpr05": 0.808501808145216
+        },
+        "vggt": {
+          "chamfer": 1.19437256363179,
+          "cvpr1": 0.999953584956683,
+          "cvpr05": 0.906443417035128
+        }
+      },
+      "orientation": "-"
+    },
+    {
+      "sample": "M-MS-P-HI-35",
+      "surface": "M",
+      "size": "MS",
+      "shape": "P",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 0.793842601870401,
+          "cvpr1": 0.968326427127659,
+          "cvpr05": 0.793639683945601
+        },
+        "vggt": {
+          "chamfer": 1.41598612324952,
+          "cvpr1": 0.944655571119529,
+          "cvpr05": 0.769896559441023
+        }
+      },
+      "orientation": "orientation_a"
+    },
+    {
+      "sample": "M-MS-P-HI-35",
+      "surface": "M",
+      "size": "MS",
+      "shape": "P",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 1.13452369778022,
+          "cvpr1": 0.942791991945191,
+          "cvpr05": 0.796179297418893
+        },
+        "vggt": {
+          "chamfer": 0.829059264321013,
+          "cvpr1": 0.985962135084205,
+          "cvpr05": 0.939386607228906
+        }
+      },
+      "orientation": "orientation_b"
+    },
+    {
+      "sample": "M-MS-P-HI-35",
+      "surface": "M",
+      "size": "MS",
+      "shape": "P",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 1.10946826756201,
+          "cvpr1": 0.923657285025657,
+          "cvpr05": 0.793402788576168
+        },
+        "vggt": {
+          "chamfer": 0.99566133299763,
+          "cvpr1": 0.968583210274402,
+          "cvpr05": 0.884357052467634
+        }
+      },
+      "orientation": "orientation_c"
+    },
+    {
+      "sample": "M-MS-P-HI-35",
+      "surface": "M",
+      "size": "MS",
+      "shape": "P",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 0.707970019782956,
+          "cvpr1": 0.967267965055176,
+          "cvpr05": 0.807540725170783
+        },
+        "vggt": {
+          "chamfer": 0.673935058135509,
+          "cvpr1": 0.99308492176124,
+          "cvpr05": 0.905265276531247
+        }
+      },
+      "orientation": "orientation_d"
+    },
+    {
+      "sample": "M-MS-P-HI-9",
+      "surface": "M",
+      "size": "MS",
+      "shape": "P",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 0.290940857094606,
+          "cvpr1": 0.998557146651856,
+          "cvpr05": 0.883100705931596
+        },
+        "vggt": {
+          "chamfer": 0.621223851701828,
+          "cvpr1": 1.0,
+          "cvpr05": 0.892158227094968
+        }
+      },
+      "orientation": "-"
+    },
+    {
+      "sample": "M-TS-P-HI-16",
+      "surface": "M",
+      "size": "TS",
+      "shape": "P",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 1.48404263039906,
+          "cvpr1": 0.944599092284418,
+          "cvpr05": 0.669514876449824
+        },
+        "vggt": {
+          "chamfer": 1.01291702578355,
+          "cvpr1": 0.992692880216297,
+          "cvpr05": 0.925087845432544
+        }
+      },
+      "orientation": "-"
+    },
+    {
+      "sample": "R-LS-I-HI-36",
+      "surface": "R",
+      "size": "LS",
+      "shape": "I",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 2.72413152446302,
+          "cvpr1": 0.944695354696282,
+          "cvpr05": 0.610596651471617
+        },
+        "vggt": {
+          "chamfer": 2.86618295558969,
+          "cvpr1": 0.899983423942122,
+          "cvpr05": 0.68681741786983
+        }
+      },
+      "orientation": "orientation_a"
+    },
+    {
+      "sample": "R-LS-I-HI-36",
+      "surface": "R",
+      "size": "LS",
+      "shape": "I",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 4.01222048016826,
+          "cvpr1": 0.874905627380643,
+          "cvpr05": 0.541718029542362
+        },
+        "vggt": {
+          "chamfer": 6.6295481179243,
+          "cvpr1": 0.802643385887022,
+          "cvpr05": 0.586300091011593
+        }
+      },
+      "orientation": "orientation_b"
+    },
+    {
+      "sample": "R-LS-I-HI-36",
+      "surface": "R",
+      "size": "LS",
+      "shape": "I",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 6.9160893542062,
+          "cvpr1": 0.891108183655561,
+          "cvpr05": 0.620256477361947
+        },
+        "vggt": {
+          "chamfer": 8.44522268076369,
+          "cvpr1": 0.893266695351891,
+          "cvpr05": 0.799327000518541
+        }
+      },
+      "orientation": "orientation_c"
+    },
+    {
+      "sample": "R-LS-I-HI-36",
+      "surface": "R",
+      "size": "LS",
+      "shape": "I",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 6.73829638461707,
+          "cvpr1": 0.936061432486582,
+          "cvpr05": 0.7835411682983
+        },
+        "vggt": {
+          "chamfer": 6.16263684925391,
+          "cvpr1": 0.931250111784801,
+          "cvpr05": 0.724868541074207
+        }
+      },
+      "orientation": "orientation_d"
+    },
+    {
+      "sample": "R-LS-P-HI-30",
+      "surface": "R",
+      "size": "LS",
+      "shape": "P",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 0.794243639132699,
+          "cvpr1": 0.958765446554568,
+          "cvpr05": 0.709844005192425
+        },
+        "vggt": {
+          "chamfer": 0.69201570550497,
+          "cvpr1": 0.99447436539323,
+          "cvpr05": 0.917281695879287
+        }
+      },
+      "orientation": "-"
+    },
+    {
+      "sample": "R-LS-P-LO-31",
+      "surface": "R",
+      "size": "LS",
+      "shape": "P",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 5.28556376488991,
+          "cvpr1": 0.916676292955954,
+          "cvpr05": 0.637460141713509
+        },
+        "vggt": {
+          "chamfer": 5.71550951659516,
+          "cvpr1": 0.843487651627542,
+          "cvpr05": 0.668380748756436
+        }
+      },
+      "orientation": "orientation_a"
+    },
+    {
+      "sample": "R-LS-P-LO-31",
+      "surface": "R",
+      "size": "LS",
+      "shape": "P",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 1.54748937960709,
+          "cvpr1": 0.94345009081601,
+          "cvpr05": 0.795387672795444
+        },
+        "vggt": {
+          "chamfer": 2.48897561835371,
+          "cvpr1": 0.907894160652435,
+          "cvpr05": 0.746507714411426
+        }
+      },
+      "orientation": "orientation_b"
+    },
+    {
+      "sample": "R-MS-I-HI-11",
+      "surface": "R",
+      "size": "MS",
+      "shape": "I",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 1.41188920033697,
+          "cvpr1": 0.924569177127792,
+          "cvpr05": 0.713984586683714
+        },
+        "vggt": {
+          "chamfer": 1.01959320534412,
+          "cvpr1": 0.981527713652403,
+          "cvpr05": 0.899609955229462
+        }
+      },
+      "orientation": "orientation_a"
+    },
+    {
+      "sample": "R-MS-I-HI-11",
+      "surface": "R",
+      "size": "MS",
+      "shape": "I",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 1.41573509673715,
+          "cvpr1": 0.940032563197764,
+          "cvpr05": 0.827236224582095
+        },
+        "vggt": {
+          "chamfer": 0.738547379618412,
+          "cvpr1": 0.977855599185513,
+          "cvpr05": 0.930722753600859
+        }
+      },
+      "orientation": "orientation_b"
+    },
+    {
+      "sample": "R-MS-I-HI-8",
+      "surface": "R",
+      "size": "MS",
+      "shape": "I",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 1.51489249514313,
+          "cvpr1": 0.920361756893784,
+          "cvpr05": 0.734010977507195
+        },
+        "vggt": {
+          "chamfer": 0.512355985725872,
+          "cvpr1": 0.99276554171871,
+          "cvpr05": 0.926068370783506
+        }
+      },
+      "orientation": "orientation_a"
+    },
+    {
+      "sample": "R-MS-I-HI-8",
+      "surface": "R",
+      "size": "MS",
+      "shape": "I",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 0.963881514542496,
+          "cvpr1": 0.945889514470322,
+          "cvpr05": 0.797290839964266
+        },
+        "vggt": {
+          "chamfer": 0.82336440801083,
+          "cvpr1": 0.980919625795102,
+          "cvpr05": 0.906550665089112
+        }
+      },
+      "orientation": "orientation_b"
+    },
+    {
+      "sample": "R-MS-I-HI-8",
+      "surface": "R",
+      "size": "MS",
+      "shape": "I",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 0.859954845354405,
+          "cvpr1": 0.968943531995906,
+          "cvpr05": 0.832246491900073
+        },
+        "vggt": {
+          "chamfer": 1.08253620774052,
+          "cvpr1": 0.98014743464548,
+          "cvpr05": 0.880092998516512
+        }
+      },
+      "orientation": "orientation_c"
+    },
+    {
+      "sample": "R-MS-I-LO-13",
+      "surface": "R",
+      "size": "MS",
+      "shape": "I",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 0.518746500576044,
+          "cvpr1": 0.963642468768205,
+          "cvpr05": 0.876201534079876
+        },
+        "vggt": {
+          "chamfer": 0.371284394783447,
+          "cvpr1": 0.995879582572355,
+          "cvpr05": 0.943715300415889
+        }
+      },
+      "orientation": "orientation_a"
+    },
+    {
+      "sample": "R-MS-I-LO-13",
+      "surface": "R",
+      "size": "MS",
+      "shape": "I",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 0.626416850199705,
+          "cvpr1": 0.974597543897882,
+          "cvpr05": 0.888660201540815
+        },
+        "vggt": {
+          "chamfer": 0.916720324536264,
+          "cvpr1": 0.972602185022312,
+          "cvpr05": 0.784141985956899
+        }
+      },
+      "orientation": "orientation_b"
+    },
+    {
+      "sample": "R-MS-I-LO-13",
+      "surface": "R",
+      "size": "MS",
+      "shape": "I",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 0.568755003852575,
+          "cvpr1": 0.956202507617965,
+          "cvpr05": 0.848428245737676
+        },
+        "vggt": {
+          "chamfer": 0.438548941196774,
+          "cvpr1": 0.99746616489575,
+          "cvpr05": 0.910793205838151
+        }
+      },
+      "orientation": "orientation_c"
+    },
+    {
+      "sample": "R-MS-I-LO-14",
+      "surface": "R",
+      "size": "MS",
+      "shape": "I",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 0.367492188998316,
+          "cvpr1": 0.982381246644312,
+          "cvpr05": 0.886711983224094
+        },
+        "vggt": {
+          "chamfer": 0.507130910987836,
+          "cvpr1": 0.998209799314435,
+          "cvpr05": 0.936030840275447
+        }
+      },
+      "orientation": "orientation_a"
+    },
+    {
+      "sample": "R-MS-I-LO-14",
+      "surface": "R",
+      "size": "MS",
+      "shape": "I",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 0.745924974903212,
+          "cvpr1": 0.94484826476728,
+          "cvpr05": 0.810527234034784
+        },
+        "vggt": {
+          "chamfer": 0.650303026086689,
+          "cvpr1": 0.94661660090289,
+          "cvpr05": 0.865573830416779
+        }
+      },
+      "orientation": "orientation_b"
+    },
+    {
+      "sample": "R-MS-I-LO-14",
+      "surface": "R",
+      "size": "MS",
+      "shape": "I",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 1.17691120504087,
+          "cvpr1": 0.960988469902753,
+          "cvpr05": 0.816607853596488
+        },
+        "vggt": {
+          "chamfer": 1.07701377208986,
+          "cvpr1": 0.953554442051848,
+          "cvpr05": 0.817660232658868
+        }
+      },
+      "orientation": "orientation_c"
+    },
+    {
+      "sample": "R-MS-I-LO-21",
+      "surface": "R",
+      "size": "MS",
+      "shape": "I",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 1.42588105429242,
+          "cvpr1": 0.906279471055048,
+          "cvpr05": 0.727282835645717
+        },
+        "vggt": {
+          "chamfer": 1.39002126706761,
+          "cvpr1": 0.952122286585994,
+          "cvpr05": 0.829196643921747
+        }
+      },
+      "orientation": "orientation_a"
+    },
+    {
+      "sample": "R-MS-I-LO-21",
+      "surface": "R",
+      "size": "MS",
+      "shape": "I",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 1.35416217001308,
+          "cvpr1": 0.917793132921991,
+          "cvpr05": 0.697455716983187
+        },
+        "vggt": {
+          "chamfer": 1.17051987783116,
+          "cvpr1": 0.996249437107132,
+          "cvpr05": 0.883886767545294
+        }
+      },
+      "orientation": "orientation_b"
+    },
+    {
+      "sample": "R-MS-I-LO-21",
+      "surface": "R",
+      "size": "MS",
+      "shape": "I",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 1.09228025069913,
+          "cvpr1": 0.946178297488499,
+          "cvpr05": 0.775146348429464
+        },
+        "vggt": {
+          "chamfer": 1.50096989618374,
+          "cvpr1": 0.961356075864211,
+          "cvpr05": 0.796833436540151
+        }
+      },
+      "orientation": "orientation_c"
+    },
+    {
+      "sample": "R-MS-I-LO-22",
+      "surface": "R",
+      "size": "MS",
+      "shape": "I",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 3.25780600528008,
+          "cvpr1": 0.907443359075334,
+          "cvpr05": 0.727655091290339
+        },
+        "vggt": {
+          "chamfer": 1.30173468693417,
+          "cvpr1": 0.980502233862271,
+          "cvpr05": 0.846143891542135
+        }
+      },
+      "orientation": "orientation_a"
+    },
+    {
+      "sample": "R-MS-I-LO-22",
+      "surface": "R",
+      "size": "MS",
+      "shape": "I",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 2.59560445075928,
+          "cvpr1": 0.876625096202385,
+          "cvpr05": 0.749087628993951
+        },
+        "vggt": {
+          "chamfer": 1.98345062668318,
+          "cvpr1": 0.948903971803355,
+          "cvpr05": 0.817646594290844
+        }
+      },
+      "orientation": "orientation_b"
+    },
+    {
+      "sample": "R-MS-I-LO-22",
+      "surface": "R",
+      "size": "MS",
+      "shape": "I",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 1.79946422677856,
+          "cvpr1": 0.865562106829378,
+          "cvpr05": 0.716315000955632
+        },
+        "vggt": {
+          "chamfer": 1.21588128442008,
+          "cvpr1": 0.981207230710356,
+          "cvpr05": 0.934815796295763
+        }
+      },
+      "orientation": "orientation_c"
+    },
+    {
+      "sample": "R-MS-I-LO-23",
+      "surface": "R",
+      "size": "MS",
+      "shape": "I",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 0.639608353098365,
+          "cvpr1": 0.961458097631876,
+          "cvpr05": 0.870812158423996
+        },
+        "vggt": {
+          "chamfer": 2.94342295445281,
+          "cvpr1": 0.850490321497799,
+          "cvpr05": 0.573757002765286
+        }
+      },
+      "orientation": "orientation_a"
+    },
+    {
+      "sample": "R-MS-I-LO-23",
+      "surface": "R",
+      "size": "MS",
+      "shape": "I",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 0.889360766150512,
+          "cvpr1": 0.953240833037034,
+          "cvpr05": 0.822859397768401
+        },
+        "vggt": {
+          "chamfer": 2.25945256919689,
+          "cvpr1": 0.930196852099873,
+          "cvpr05": 0.710297847400929
+        }
+      },
+      "orientation": "orientation_b"
+    },
+    {
+      "sample": "R-MS-I-LO-23",
+      "surface": "R",
+      "size": "MS",
+      "shape": "I",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 1.03242039654654,
+          "cvpr1": 0.94646384300281,
+          "cvpr05": 0.765338693731746
+        },
+        "vggt": {
+          "chamfer": 2.87114924602915,
+          "cvpr1": 0.927309088582567,
+          "cvpr05": 0.767172791833753
+        }
+      },
+      "orientation": "orientation_c"
+    },
+    {
+      "sample": "R-MS-I-LO-24",
+      "surface": "R",
+      "size": "MS",
+      "shape": "I",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 0.571493598189137,
+          "cvpr1": 0.972167765458198,
+          "cvpr05": 0.808806231380839
+        },
+        "vggt": {
+          "chamfer": 1.10695861291245,
+          "cvpr1": 0.963918101008216,
+          "cvpr05": 0.812797376894842
+        }
+      },
+      "orientation": "orientation_a"
+    },
+    {
+      "sample": "R-MS-I-LO-24",
+      "surface": "R",
+      "size": "MS",
+      "shape": "I",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 0.701298497616774,
+          "cvpr1": 0.964565489444002,
+          "cvpr05": 0.725462789903948
+        },
+        "vggt": {
+          "chamfer": 0.73616411772673,
+          "cvpr1": 0.994454330497526,
+          "cvpr05": 0.877810415295485
+        }
+      },
+      "orientation": "orientation_b"
+    },
+    {
+      "sample": "R-MS-O-LO-32",
+      "surface": "R",
+      "size": "MS",
+      "shape": "O",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 0.455104563356251,
+          "cvpr1": 0.970518944695811,
+          "cvpr05": 0.825205071449497
+        },
+        "vggt": {
+          "chamfer": 0.984610449328013,
+          "cvpr1": 0.994453931886521,
+          "cvpr05": 0.774647829781671
+        }
+      },
+      "orientation": "orientation_a"
+    },
+    {
+      "sample": "R-MS-O-LO-32",
+      "surface": "R",
+      "size": "MS",
+      "shape": "O",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 1.53199760282851,
+          "cvpr1": 0.909225056722566,
+          "cvpr05": 0.815360722030124
+        },
+        "vggt": {
+          "chamfer": 1.91011209526693,
+          "cvpr1": 0.965356977840592,
+          "cvpr05": 0.827462278411146
+        }
+      },
+      "orientation": "orientation_b"
+    },
+    {
+      "sample": "R-MS-O-LO-32",
+      "surface": "R",
+      "size": "MS",
+      "shape": "O",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 2.03680049719326,
+          "cvpr1": 0.878325790911556,
+          "cvpr05": 0.722216429271548
+        },
+        "vggt": {
+          "chamfer": 4.1619115796161,
+          "cvpr1": 0.882673257045544,
+          "cvpr05": 0.743567111794148
+        }
+      },
+      "orientation": "orientation_c"
+    },
+    {
+      "sample": "R-MS-P-LO-12",
+      "surface": "R",
+      "size": "MS",
+      "shape": "P",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 1.52129238646371,
+          "cvpr1": 0.970526847472627,
+          "cvpr05": 0.766852982797414
+        },
+        "vggt": {
+          "chamfer": 2.47536484305495,
+          "cvpr1": 0.891587025112551,
+          "cvpr05": 0.759323154179675
+        }
+      },
+      "orientation": "orientation_a"
+    },
+    {
+      "sample": "R-MS-P-LO-12",
+      "surface": "R",
+      "size": "MS",
+      "shape": "P",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 3.20328055667172,
+          "cvpr1": 0.888964855665462,
+          "cvpr05": 0.551422729166053
+        },
+        "vggt": {
+          "chamfer": 2.86870888959531,
+          "cvpr1": 0.895132333655945,
+          "cvpr05": 0.716505989265828
+        }
+      },
+      "orientation": "orientation_b"
+    },
+    {
+      "sample": "R-MS-P-LO-12",
+      "surface": "R",
+      "size": "MS",
+      "shape": "P",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 1.94015556840013,
+          "cvpr1": 0.916257990327054,
+          "cvpr05": 0.580260510028072
+        },
+        "vggt": {
+          "chamfer": 5.61584338428099,
+          "cvpr1": 0.900900881884844,
+          "cvpr05": 0.769717872838031
+        }
+      },
+      "orientation": "orientation_c"
+    },
+    {
+      "sample": "R-MS-P-LO-12",
+      "surface": "R",
+      "size": "MS",
+      "shape": "P",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 2.41278376811636,
+          "cvpr1": 0.925220948191531,
+          "cvpr05": 0.756355891916561
+        },
+        "vggt": {
+          "chamfer": 3.14626000611437,
+          "cvpr1": 0.959315701420887,
+          "cvpr05": 0.837091052507702
+        }
+      },
+      "orientation": "orientation_d"
+    },
+    {
+      "sample": "R-TS-I-HI-6",
+      "surface": "R",
+      "size": "TS",
+      "shape": "I",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 1.13839589011514,
+          "cvpr1": 0.9701516270775,
+          "cvpr05": 0.693801063180968
+        },
+        "vggt": {
+          "chamfer": 1.14491326091062,
+          "cvpr1": 0.982775641219756,
+          "cvpr05": 0.722324844300437
+        }
+      },
+      "orientation": "-"
+    },
+    {
+      "sample": "R-TS-P-LO-15",
+      "surface": "R",
+      "size": "TS",
+      "shape": "P",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 0.630462535585232,
+          "cvpr1": 0.972414516044495,
+          "cvpr05": 0.792824629378016
+        },
+        "vggt": {
+          "chamfer": 0.520773748503726,
+          "cvpr1": 0.998713537589582,
+          "cvpr05": 0.91994805604607
+        }
+      },
+      "orientation": "-"
+    },
+    {
+      "sample": "T-LS-I-HI-37",
+      "surface": "T",
+      "size": "LS",
+      "shape": "I",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 1.55898901626867,
+          "cvpr1": 0.926588231390975,
+          "cvpr05": 0.613215528359868
+        },
+        "vggt": {
+          "chamfer": 0.522344981797349,
+          "cvpr1": 0.992083283196893,
+          "cvpr05": 0.93392362940803
+        }
+      },
+      "orientation": "orientation_a"
+    },
+    {
+      "sample": "T-LS-I-HI-37",
+      "surface": "T",
+      "size": "LS",
+      "shape": "I",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 1.1696283774041,
+          "cvpr1": 0.933969355184612,
+          "cvpr05": 0.702290553159947
+        },
+        "vggt": {
+          "chamfer": 0.899869640199263,
+          "cvpr1": 0.9777764364036,
+          "cvpr05": 0.905910464661266
+        }
+      },
+      "orientation": "orientation_b"
+    },
+    {
+      "sample": "T-LS-I-HI-37",
+      "surface": "T",
+      "size": "LS",
+      "shape": "I",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 1.20338418716271,
+          "cvpr1": 0.955645676800067,
+          "cvpr05": 0.775019648527146
+        },
+        "vggt": {
+          "chamfer": 2.04867479213456,
+          "cvpr1": 0.947342499056881,
+          "cvpr05": 0.797694596973635
+        }
+      },
+      "orientation": "orientation_c"
+    },
+    {
+      "sample": "T-TS-P-HI-25",
+      "surface": "T",
+      "size": "TS",
+      "shape": "P",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 2.96639076137391,
+          "cvpr1": 0.850068979509028,
+          "cvpr05": 0.510470683708663
+        },
+        "vggt": {
+          "chamfer": 0.396334777369589,
+          "cvpr1": 0.991689997971191,
+          "cvpr05": 0.955412862649625
+        }
+      },
+      "orientation": "-"
+    }
+  ],
+  "stacked": [
+    {
+      "sample": "G-LS-P-LO-34",
+      "surface": "G",
+      "size": "LS",
+      "shape": "P",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 99.9157957930225,
+          "cvpr1": 0.433625216702086,
+          "cvpr05": 0.360841735637665
+        },
+        "vggt": {
+          "chamfer": 65.6092645746823,
+          "cvpr1": 0.579763751342322,
+          "cvpr05": 0.338959048976695
+        }
+      }
+    },
+    {
+      "sample": "G-MS-I-HI-4",
+      "surface": "G",
+      "size": "MS",
+      "shape": "I",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 5.83704287432166,
+          "cvpr1": 0.743214490206104,
+          "cvpr05": 0.460903352285714
+        },
+        "vggt": {
+          "chamfer": 4.10725854082678,
+          "cvpr1": 0.882655477310691,
+          "cvpr05": 0.74467017394234
+        }
+      }
+    },
+    {
+      "sample": "G-MS-I-LO-1",
+      "surface": "G",
+      "size": "MS",
+      "shape": "I",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 13.3137138836647,
+          "cvpr1": 0.800068913420889,
+          "cvpr05": 0.610885669984229
+        },
+        "vggt": {
+          "chamfer": 18.3605741008941,
+          "cvpr1": 0.85390089719973,
+          "cvpr05": 0.6909895702188
+        }
+      }
+    },
+    {
+      "sample": "G-MS-O-LO-10",
+      "surface": "G",
+      "size": "MS",
+      "shape": "O",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 3.05415910366541,
+          "cvpr1": 0.786190093569374,
+          "cvpr05": 0.529533103513819
+        },
+        "vggt": {
+          "chamfer": 2.70470927607709,
+          "cvpr1": 0.824573176239821,
+          "cvpr05": 0.658192564297789
+        }
+      }
+    },
+    {
+      "sample": "G-MS-O-LO-2",
+      "surface": "G",
+      "size": "MS",
+      "shape": "O",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 2.29666047095157,
+          "cvpr1": 0.842586248764158,
+          "cvpr05": 0.641308778381004
+        },
+        "vggt": {
+          "chamfer": 1.95081797298508,
+          "cvpr1": 0.888557147097632,
+          "cvpr05": 0.662434431042365
+        }
+      }
+    },
+    {
+      "sample": "G-TS-O-HI-7",
+      "surface": "G",
+      "size": "TS",
+      "shape": "O",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 0.599176296739112,
+          "cvpr1": 0.964773598107487,
+          "cvpr05": 0.782679588844834
+        },
+        "vggt": {
+          "chamfer": 1.19520855494077,
+          "cvpr1": 0.939318967976792,
+          "cvpr05": 0.800567700230954
+        }
+      }
+    },
+    {
+      "sample": "G-TS-P-HI-3",
+      "surface": "G",
+      "size": "TS",
+      "shape": "P",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 2.80117649837243,
+          "cvpr1": 0.778995386020317,
+          "cvpr05": 0.494197108688972
+        },
+        "vggt": {
+          "chamfer": 2.05514711268105,
+          "cvpr1": 0.832443011793219,
+          "cvpr05": 0.59797568997195
+        }
+      }
+    },
+    {
+      "sample": "G-TS-P-HI-5",
+      "surface": "G",
+      "size": "TS",
+      "shape": "P",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 0.751453531181247,
+          "cvpr1": 0.978340836327398,
+          "cvpr05": 0.732710676532985
+        },
+        "vggt": {
+          "chamfer": 1.65699267587515,
+          "cvpr1": 0.975495684723267,
+          "cvpr05": 0.612740691098107
+        }
+      }
+    },
+    {
+      "sample": "M-LS-P-HI-17",
+      "surface": "M",
+      "size": "LS",
+      "shape": "P",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 1.26876510733269,
+          "cvpr1": 0.936798976737415,
+          "cvpr05": 0.786955481838129
+        },
+        "vggt": {
+          "chamfer": 1.71536036404835,
+          "cvpr1": 0.920282215554294,
+          "cvpr05": 0.651591049450104
+        }
+      }
+    },
+    {
+      "sample": "M-LS-P-HI-19",
+      "surface": "M",
+      "size": "LS",
+      "shape": "P",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 1.43751820811236,
+          "cvpr1": 0.869537718127597,
+          "cvpr05": 0.622034445027734
+        },
+        "vggt": {
+          "chamfer": 1.20016919546951,
+          "cvpr1": 0.920996525667925,
+          "cvpr05": 0.718449952468766
+        }
+      }
+    },
+    {
+      "sample": "M-LS-P-HI-20",
+      "surface": "M",
+      "size": "LS",
+      "shape": "P",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 0.976886890716467,
+          "cvpr1": 0.94073038652295,
+          "cvpr05": 0.784547365369283
+        },
+        "vggt": {
+          "chamfer": 1.58183634871368,
+          "cvpr1": 0.947158776509209,
+          "cvpr05": 0.792141689170005
+        }
+      }
+    },
+    {
+      "sample": "M-LS-P-HI-26",
+      "surface": "M",
+      "size": "LS",
+      "shape": "P",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 0.782176073440194,
+          "cvpr1": 0.926314193686388,
+          "cvpr05": 0.783509265239413
+        },
+        "vggt": {
+          "chamfer": 1.9357696112442,
+          "cvpr1": 0.945093231417831,
+          "cvpr05": 0.795222398058435
+        }
+      }
+    },
+    {
+      "sample": "M-LS-P-HI-29",
+      "surface": "M",
+      "size": "LS",
+      "shape": "P",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 0.933638988640872,
+          "cvpr1": 0.946201245520192,
+          "cvpr05": 0.784550459167546
+        },
+        "vggt": {
+          "chamfer": 0.73435090506249,
+          "cvpr1": 0.975578567619157,
+          "cvpr05": 0.884467680725807
+        }
+      }
+    },
+    {
+      "sample": "M-LS-P-LO-18",
+      "surface": "M",
+      "size": "LS",
+      "shape": "P",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 1.50465438675435,
+          "cvpr1": 0.891640640809795,
+          "cvpr05": 0.517195841704376
+        },
+        "vggt": {
+          "chamfer": 1.98903195549665,
+          "cvpr1": 0.9453803376739,
+          "cvpr05": 0.600521620283004
+        }
+      }
+    },
+    {
+      "sample": "M-MS-P-HI-27",
+      "surface": "M",
+      "size": "MS",
+      "shape": "P",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 0.798948260016009,
+          "cvpr1": 0.976623786982968,
+          "cvpr05": 0.745877615670833
+        },
+        "vggt": {
+          "chamfer": 1.34638853208752,
+          "cvpr1": 0.989743099524273,
+          "cvpr05": 0.751731347715638
+        }
+      }
+    },
+    {
+      "sample": "M-MS-P-HI-28",
+      "surface": "M",
+      "size": "MS",
+      "shape": "P",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 0.566783571706724,
+          "cvpr1": 0.950003368477785,
+          "cvpr05": 0.768490837740425
+        },
+        "vggt": {
+          "chamfer": 2.81354283923325,
+          "cvpr1": 0.954315587190412,
+          "cvpr05": 0.805645810418431
+        }
+      }
+    },
+    {
+      "sample": "M-MS-P-HI-35",
+      "surface": "M",
+      "size": "MS",
+      "shape": "P",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 4.51475662332468,
+          "cvpr1": 0.84426349305773,
+          "cvpr05": 0.671333124543272
+        },
+        "vggt": {
+          "chamfer": 6.88046691680413,
+          "cvpr1": 0.830707721065476,
+          "cvpr05": 0.664395866867439
+        }
+      }
+    },
+    {
+      "sample": "M-MS-P-HI-9",
+      "surface": "M",
+      "size": "MS",
+      "shape": "P",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 0.2542362853766,
+          "cvpr1": 0.997566900174426,
+          "cvpr05": 0.880353121739586
+        },
+        "vggt": {
+          "chamfer": 1.01483963327511,
+          "cvpr1": 0.996667246393225,
+          "cvpr05": 0.787338771977366
+        }
+      }
+    },
+    {
+      "sample": "M-TS-P-HI-16",
+      "surface": "M",
+      "size": "TS",
+      "shape": "P",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 0.915135851251189,
+          "cvpr1": 0.955746252665735,
+          "cvpr05": 0.762850116833158
+        },
+        "vggt": {
+          "chamfer": 1.89997996017592,
+          "cvpr1": 0.96634326313077,
+          "cvpr05": 0.86998073485682
+        }
+      }
+    },
+    {
+      "sample": "R-LS-I-HI-36",
+      "surface": "R",
+      "size": "LS",
+      "shape": "I",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 47.6817112833213,
+          "cvpr1": 0.455985859702617,
+          "cvpr05": 0.322160057180884
+        },
+        "vggt": {
+          "chamfer": 33.0659193888167,
+          "cvpr1": 0.578049839307095,
+          "cvpr05": 0.374764562138091
+        }
+      }
+    },
+    {
+      "sample": "R-LS-P-HI-30",
+      "surface": "R",
+      "size": "LS",
+      "shape": "P",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 1.71601505504753,
+          "cvpr1": 0.843138033514603,
+          "cvpr05": 0.550717065361417
+        },
+        "vggt": {
+          "chamfer": 1.15599355928264,
+          "cvpr1": 0.950736156433503,
+          "cvpr05": 0.783436427984606
+        }
+      }
+    },
+    {
+      "sample": "R-LS-P-LO-31",
+      "surface": "R",
+      "size": "LS",
+      "shape": "P",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 25.1919369926703,
+          "cvpr1": 0.582649400994127,
+          "cvpr05": 0.421452669240873
+        },
+        "vggt": {
+          "chamfer": 31.4088304948377,
+          "cvpr1": 0.649472971901995,
+          "cvpr05": 0.431522925265038
+        }
+      }
+    },
+    {
+      "sample": "R-MS-I-HI-11",
+      "surface": "R",
+      "size": "MS",
+      "shape": "I",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 2.73717500034404,
+          "cvpr1": 0.870213564234796,
+          "cvpr05": 0.667929562302443
+        },
+        "vggt": {
+          "chamfer": 3.33006652243722,
+          "cvpr1": 0.901548097028478,
+          "cvpr05": 0.806043664778584
+        }
+      }
+    },
+    {
+      "sample": "R-MS-I-HI-8",
+      "surface": "R",
+      "size": "MS",
+      "shape": "I",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 6.76909397996628,
+          "cvpr1": 0.830532134382815,
+          "cvpr05": 0.694451784413109
+        },
+        "vggt": {
+          "chamfer": 8.20064530318386,
+          "cvpr1": 0.815747388206146,
+          "cvpr05": 0.627078822376659
+        }
+      }
+    },
+    {
+      "sample": "R-MS-I-LO-13",
+      "surface": "R",
+      "size": "MS",
+      "shape": "I",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 2.22739820751498,
+          "cvpr1": 0.865401215441984,
+          "cvpr05": 0.692986747551178
+        },
+        "vggt": {
+          "chamfer": 1.59019346305011,
+          "cvpr1": 0.916173615052262,
+          "cvpr05": 0.82209480072452
+        }
+      }
+    },
+    {
+      "sample": "R-MS-I-LO-14",
+      "surface": "R",
+      "size": "MS",
+      "shape": "I",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 2.50975490961673,
+          "cvpr1": 0.829589512646237,
+          "cvpr05": 0.561606895448616
+        },
+        "vggt": {
+          "chamfer": 2.88692992878647,
+          "cvpr1": 0.837371249137149,
+          "cvpr05": 0.606206208915899
+        }
+      }
+    },
+    {
+      "sample": "R-MS-I-LO-21",
+      "surface": "R",
+      "size": "MS",
+      "shape": "I",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 7.38901835454762,
+          "cvpr1": 0.789500760545614,
+          "cvpr05": 0.618181368487442
+        },
+        "vggt": {
+          "chamfer": 5.67199746055915,
+          "cvpr1": 0.862923910650728,
+          "cvpr05": 0.729231438952662
+        }
+      }
+    },
+    {
+      "sample": "R-MS-I-LO-22",
+      "surface": "R",
+      "size": "MS",
+      "shape": "I",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 12.9776046599039,
+          "cvpr1": 0.79088623796985,
+          "cvpr05": 0.520928189260795
+        },
+        "vggt": {
+          "chamfer": 15.462952587901,
+          "cvpr1": 0.830212359922147,
+          "cvpr05": 0.557245555730248
+        }
+      }
+    },
+    {
+      "sample": "R-MS-I-LO-23",
+      "surface": "R",
+      "size": "MS",
+      "shape": "I",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 5.89780410534092,
+          "cvpr1": 0.804049107732188,
+          "cvpr05": 0.475075305723235
+        },
+        "vggt": {
+          "chamfer": 6.66459114866396,
+          "cvpr1": 0.831353525849509,
+          "cvpr05": 0.586117425106151
+        }
+      }
+    },
+    {
+      "sample": "R-MS-I-LO-24",
+      "surface": "R",
+      "size": "MS",
+      "shape": "I",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 1.58561399043671,
+          "cvpr1": 0.942403658770122,
+          "cvpr05": 0.718556317799331
+        },
+        "vggt": {
+          "chamfer": 2.41050198212094,
+          "cvpr1": 0.940016075943115,
+          "cvpr05": 0.793769898470091
+        }
+      }
+    },
+    {
+      "sample": "R-MS-O-LO-32",
+      "surface": "R",
+      "size": "MS",
+      "shape": "O",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 3.69843281748207,
+          "cvpr1": 0.719229047523341,
+          "cvpr05": 0.541815881310409
+        },
+        "vggt": {
+          "chamfer": 4.05251949467962,
+          "cvpr1": 0.746853946721265,
+          "cvpr05": 0.486236517323024
+        }
+      }
+    },
+    {
+      "sample": "R-MS-P-LO-12",
+      "surface": "R",
+      "size": "MS",
+      "shape": "P",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 11.4019081156078,
+          "cvpr1": 0.869021126158547,
+          "cvpr05": 0.693095736437315
+        },
+        "vggt": {
+          "chamfer": 20.7079184223811,
+          "cvpr1": 0.696983328487495,
+          "cvpr05": 0.487725400055956
+        }
+      }
+    },
+    {
+      "sample": "R-TS-I-HI-6",
+      "surface": "R",
+      "size": "TS",
+      "shape": "I",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 3.56278517166569,
+          "cvpr1": 0.696294189846712,
+          "cvpr05": 0.353936965890153
+        },
+        "vggt": {
+          "chamfer": 2.7519928230535,
+          "cvpr1": 0.918022568872417,
+          "cvpr05": 0.749257602881026
+        }
+      }
+    },
+    {
+      "sample": "R-TS-P-LO-15",
+      "surface": "R",
+      "size": "TS",
+      "shape": "P",
+      "complexity": "LO",
+      "metrics": {
+        "da3": {
+          "chamfer": 1.19331617629392,
+          "cvpr1": 0.888236962531168,
+          "cvpr05": 0.646281268123764
+        },
+        "vggt": {
+          "chamfer": 1.17619667467702,
+          "cvpr1": 0.920839566828738,
+          "cvpr05": 0.746276903199483
+        }
+      }
+    },
+    {
+      "sample": "T-LS-I-HI-37",
+      "surface": "T",
+      "size": "LS",
+      "shape": "I",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 5.26518936961484,
+          "cvpr1": 0.861766745985106,
+          "cvpr05": 0.597968709357328
+        },
+        "vggt": {
+          "chamfer": 3.3841064432598,
+          "cvpr1": 0.928338715083934,
+          "cvpr05": 0.851275583411507
+        }
+      }
+    },
+    {
+      "sample": "T-TS-P-HI-25",
+      "surface": "T",
+      "size": "TS",
+      "shape": "P",
+      "complexity": "HI",
+      "metrics": {
+        "da3": {
+          "chamfer": 2.77680205474691,
+          "cvpr1": 0.733139230467578,
+          "cvpr05": 0.439561932177917
+        },
+        "vggt": {
+          "chamfer": 2.38374222853964,
+          "cvpr1": 0.815021992000123,
+          "cvpr05": 0.63245007739345
+        }
+      }
+    }
+  ],
+  "screenshots": {
+    "multiple": [],
+    "single": [],
+    "stacked": []
+  }
+}

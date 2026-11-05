@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="INNO-GRIP: intelligent small-parts grasping using photogrammetry and AI models in automated assembly.">
+    <title>INNO-GRIP</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header class="masthead">
+      <nav class="site-nav" aria-label="Main navigation">
+        <a class="brand" href="#/home" aria-label="INNO-GRIP home">
+          <img src="imgs/web/Logo.png" alt="INNO-GRIP">
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
+          <span class="sr-only" data-i18n="toggleNavigation">Toggle navigation</span>
+          <span aria-hidden="true">☰</span>
+        </button>
+        <ul class="nav-links" id="primary-navigation">
+          <li><a href="#/home" data-route="home" data-i18n="home">Home</a></li>
+          <li class="nav-dropdown">
+            <button type="button" class="nav-dropdown-toggle" aria-expanded="false" aria-controls="see-menu">
+              <span data-i18n="see">See</span><span class="dropdown-caret" aria-hidden="true">▾</span>
+            </button>
+            <ul class="dropdown-menu" id="see-menu">
+              <li><a href="#/see/overview" data-route="see/overview" data-i18n="overview">Overview</a></li>
+              <li><a href="#/see/results" data-route="see/results" data-i18n="resultBrowser">Result browser</a></li>
+            </ul>
+          </li>
+          <li><a href="#/plan" data-route="plan" data-i18n="plan">Plan</a></li>
+          <li><a href="#/grasp" data-route="grasp" data-i18n="grasp">Grasp</a></li>
+          <li><a href="#/integrate" data-route="integrate" data-i18n="integrate">Integrate</a></li>
+          <li><a href="#/papers" data-route="papers" data-i18n="papers">Papers</a></li>
+          <li><a href="#/code" data-route="code" data-i18n="code">Code</a></li>
+          <li><a href="#/about" data-route="about" data-i18n="about">About</a></li>
+          <li>
+            <button class="language-toggle" type="button" aria-label="Switch language">
+              <span data-language-option="de">DE</span><span aria-hidden="true">/</span><span data-language-option="en">EN</span>
+            </button>
+          </li>
+        </ul>
+      </nav>
+      <div class="hero-copy" id="hero-copy"></div>
+    </header>
+
+    <main id="page-content" tabindex="-1"></main>
+
+    <footer class="site-footer">
+      <p>INNO-GRIP <span aria-hidden="true">·</span> Intelligent grasping for automated assembly</p>
+    </footer>
+  </body>
+</html>
