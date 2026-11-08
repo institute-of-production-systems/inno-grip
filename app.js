@@ -236,17 +236,20 @@ function escapeHtml(value) {
 function renderSampleDetails(sample) {
   const algorithms = [
     { key: "da3", label: "DA3", imageName: "da3" },
-    { key: "vggt", label: "VGGT-Omega", imageName: "vggt-omega" }
+    { key: "vggt", label: "VGGT-Omega", imageName: "vggt" }
   ];
   const screenshotCells = algorithms.map((algorithm) => {
-    const sampleFile = `${sample.sample}_${algorithm.imageName}.png`;
+    const orientationSuffix = sample.orientation && sample.orientation !== "-"
+      ? `_${sample.orientation}`
+      : "";
+    const sampleFile = `${sample.sample}${orientationSuffix}_${algorithm.imageName}.png`;
     const encodedFile = encodeURIComponent(sampleFile);
     const screenshotExists = resultData.screenshots?.[currentArrangement]?.includes(sampleFile);
     const imagePath = screenshotExists
       ? `imgs/3dr_display/${currentArrangement}/${encodedFile}`
       : `imgs/3dr_display/${currentArrangement}/placeholder_${algorithm.imageName}.png`;
     const placeholderPath = `imgs/3dr_display/${currentArrangement}/placeholder_${algorithm.imageName}.png`;
-    return `<td class="screenshot-cell"><img src="${imagePath}" data-placeholder="${placeholderPath}" alt="${algorithm.label} reconstruction screenshot for ${escapeHtml(sample.sample)}" loading="lazy"></td>`;
+    return `<td class="screenshot-cell"><img src="${imagePath}" data-placeholder="${placeholderPath}" alt="${algorithm.label} reconstruction screenshot for ${escapeHtml(sample.sample)}${orientationSuffix ? `, ${escapeHtml(sample.orientation)}` : ""}" loading="lazy"></td>`;
   }).join("");
   const metricRows = [
     { key: "chamfer", label: text("chamfer"), format: formatNumber },

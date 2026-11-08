@@ -19,5 +19,8 @@ python tools\export_3dr_data.py
 Run the exporter after changing a workbook or adding screenshots, then publish
 the updated JSON with the site. To add real reconstruction screenshots, put PNG
 files in the matching `imgs/3dr_display/{single,multiple,stacked}/` folder using
-the name `{sample}_da3.png` or `{sample}_vggt-omega.png`. Until then, the result
-browser shows the included algorithm-specific placeholder image.
+the name `{sample}_{algorithm}.png`, where `{algorithm}` is `da3` or `vggt`.
+For samples with an orientation, include it between the sample name and
+algorithm, for example `{sample}_orientation_a_da3.png` or
+`{sample}_orientation_a_vggt.png`. Until then, the result browser shows the
+included algorithm-specific placeholder image.
