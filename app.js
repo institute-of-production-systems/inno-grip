@@ -35,6 +35,8 @@ const translations = {
     orientation: "Orientation",
     algorithm: "Algorithm",
     screenshot: "Screenshot",
+    expandScreenshot: "Expand",
+    closeScreenshot: "Close",
     noSamples: "No samples were found in this workbook.",
     selectedSample: "Selected sample",
     pagePlaceholder: "Content for this section will be added soon.",
@@ -75,6 +77,8 @@ const translations = {
     orientation: "Orientierung",
     algorithm: "Algorithmus",
     screenshot: "Screenshot",
+    expandScreenshot: "Vergrößern",
+    closeScreenshot: "Schließen",
     noSamples: "In dieser Arbeitsmappe wurden keine Proben gefunden.",
     selectedSample: "Ausgewählte Probe",
     pagePlaceholder: "Inhalte für diesen Bereich werden in Kürze ergänzt.",
@@ -249,7 +253,8 @@ function renderSampleDetails(sample) {
       ? `imgs/3dr_display/${currentArrangement}/${encodedFile}`
       : `imgs/3dr_display/${currentArrangement}/placeholder_${algorithm.imageName}.png`;
     const placeholderPath = `imgs/3dr_display/${currentArrangement}/placeholder_${algorithm.imageName}.png`;
-    return `<td class="screenshot-cell"><img src="${imagePath}" data-placeholder="${placeholderPath}" alt="${algorithm.label} reconstruction screenshot for ${escapeHtml(sample.sample)}${orientationSuffix ? `, ${escapeHtml(sample.orientation)}` : ""}" loading="lazy"></td>`;
+    const alt = `${algorithm.label} reconstruction screenshot for ${escapeHtml(sample.sample)}${orientationSuffix ? `, ${escapeHtml(sample.orientation)}` : ""}`;
+    return `<td class="screenshot-cell"><button class="screenshot-expand" type="button" data-expand-screenshot title="${text("expandScreenshot")}" aria-label="${text("expandScreenshot")}: ${alt}"><img src="${imagePath}" data-placeholder="${placeholderPath}" alt="${alt}" loading="lazy"></button></td>`;
   }).join("");
   const metricRows = [
     { key: "chamfer", label: text("chamfer"), format: formatNumber },
@@ -271,6 +276,40 @@ function renderSampleDetails(sample) {
     </table>
     <p class="sample-caption">${text("selectedSample")}: <strong>${escapeHtml(sample.sample ?? "")}</strong></p>
   `;
+}
+
+function renderDetailPanel(sample) {
+  return `
+    <h3 class="panel-heading">${sample ? escapeHtml(sample.sample) : text("noSamples")}</h3>
+    ${sample ? renderSampleDetails(sample) : ""}
+  `;
+}
+
+function wireScreenshotFallbacks(container) {
+  container.querySelectorAll(".screenshot-cell img, .screenshot-dialog-image").forEach((image) => {
+    image.addEventListener("error", () => {
+      if (image.dataset.usingPlaceholder === "true") return;
+      image.dataset.usingPlaceholder = "true";
+      image.src = image.dataset.placeholder;
+    }, { once: true });
+  });
+}
+
+function updateSelectedSample(sampleId) {
+  const samples = resultData?.[currentArrangement] ?? [];
+  if (!Number.isInteger(sampleId) || sampleId < 0 || sampleId >= samples.length) return;
+
+  selectedSampleId = sampleId;
+  pageContent.querySelectorAll(".sample-table [data-sample-id]").forEach((row) => {
+    const isSelected = Number(row.dataset.sampleId) === sampleId;
+    row.classList.toggle("is-selected", isSelected);
+    row.setAttribute("aria-selected", String(isSelected));
+  });
+
+  const detailPanel = pageContent.querySelector(".detail-panel");
+  if (!detailPanel) return;
+  detailPanel.innerHTML = renderDetailPanel(samples[sampleId]);
+  wireScreenshotFallbacks(detailPanel);
 }
 
 function renderResults() {
@@ -305,18 +344,18 @@ function renderResults() {
           ${samples.length ? renderSampleTable(samples) : `<p class="loading-message">${text("noSamples")}</p>`}
         </section>
         <section class="detail-panel" aria-label="${text("selectedSample")}">
-          <h3 class="panel-heading">${selectedSample ? escapeHtml(selectedSample.sample) : text("noSamples")}</h3>
-          ${selectedSample ? renderSampleDetails(selectedSample) : ""}
+          ${renderDetailPanel(selectedSample)}
         </section>
       </div>
+      <dialog class="screenshot-dialog" aria-label="${text("screenshot")}">
+        <button class="screenshot-dialog-close" type="button" data-close-screenshot aria-label="${text("closeScreenshot")}" title="${text("closeScreenshot")}">&times;</button>
+        <img class="screenshot-dialog-image" alt="">
+      </dialog>
     </section>
   `;
-  pageContent.querySelectorAll(".screenshot-cell img").forEach((image) => {
-    image.addEventListener("error", () => {
-      if (image.dataset.usingPlaceholder === "true") return;
-      image.dataset.usingPlaceholder = "true";
-      image.src = image.dataset.placeholder;
-    }, { once: true });
+  wireScreenshotFallbacks(pageContent);
+  pageContent.querySelector(".screenshot-dialog").addEventListener("click", (event) => {
+    if (event.target === event.currentTarget) event.currentTarget.close();
   });
 }
 
@@ -381,6 +420,23 @@ languageButton.addEventListener("click", () => {
 window.addEventListener("hashchange", renderRoute);
 
 pageContent.addEventListener("click", (event) => {
+  const screenshotButton = event.target.closest("[data-expand-screenshot]");
+  if (screenshotButton) {
+    const dialog = pageContent.querySelector(".screenshot-dialog");
+    const dialogImage = dialog.querySelector(".screenshot-dialog-image");
+    const thumbnail = screenshotButton.querySelector("img");
+    dialogImage.src = thumbnail.currentSrc || thumbnail.src;
+    dialogImage.alt = thumbnail.alt;
+    dialogImage.dataset.placeholder = thumbnail.dataset.placeholder;
+    delete dialogImage.dataset.usingPlaceholder;
+    dialog.showModal();
+    return;
+  }
+  const closeScreenshotButton = event.target.closest("[data-close-screenshot]");
+  if (closeScreenshotButton) {
+    closeScreenshotButton.closest(".screenshot-dialog").close();
+    return;
+  }
   const arrangementButton = event.target.closest("[data-arrangement]");
   if (arrangementButton) {
     currentArrangement = arrangementButton.dataset.arrangement;
@@ -390,8 +446,7 @@ pageContent.addEventListener("click", (event) => {
   }
   const sampleRow = event.target.closest("[data-sample-id]");
   if (sampleRow) {
-    selectedSampleId = Number(sampleRow.dataset.sampleId);
-    renderResults();
+    updateSelectedSample(Number(sampleRow.dataset.sampleId));
   }
 });
 
@@ -400,15 +455,13 @@ pageContent.addEventListener("mouseover", (event) => {
   if (!sampleRow || !resultData || location.hash.replace(/^#\/?/, "") !== "see/results") return;
   const nextId = Number(sampleRow.dataset.sampleId);
   if (nextId === selectedSampleId) return;
-  selectedSampleId = nextId;
-  renderResults();
+  updateSelectedSample(nextId);
 });
 
 pageContent.addEventListener("focusin", (event) => {
   const sampleRow = event.target.closest("[data-sample-id]");
   if (!sampleRow || !resultData) return;
-  selectedSampleId = Number(sampleRow.dataset.sampleId);
-  renderResults();
+  updateSelectedSample(Number(sampleRow.dataset.sampleId));
 });
 
 applyLanguage();

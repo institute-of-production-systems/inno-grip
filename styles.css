@@ -432,6 +432,22 @@ main {
   padding: 8px !important;
 }
 
+.screenshot-expand {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  border-radius: 3px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.screenshot-expand:focus-visible,
+.screenshot-dialog-close:focus-visible {
+  outline: 3px solid var(--blue);
+  outline-offset: 3px;
+}
+
 .screenshot-cell img {
   display: block;
   width: 100%;
@@ -440,6 +456,50 @@ main {
   border-radius: 3px;
   background: #10191e;
   object-fit: contain;
+}
+
+.screenshot-dialog {
+  position: fixed;
+  width: min(848px, calc(100vw - 32px));
+  max-width: none;
+  max-height: calc(100vh - 32px);
+  padding: 16px;
+  overflow: auto;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0 12px 40px rgb(0 0 0 / 35%);
+}
+
+.screenshot-dialog::backdrop {
+  background: rgb(0 0 0 / 72%);
+}
+
+.screenshot-dialog-close {
+  display: block;
+  width: 36px;
+  height: 36px;
+  margin: 0 0 8px auto;
+  padding: 0;
+  border: 0;
+  border-radius: 4px;
+  color: var(--ink);
+  background: var(--surface);
+  font: inherit;
+  font-size: 1.6rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.screenshot-dialog-image {
+  display: block;
+  width: min(800px, calc(100vw - 64px));
+  height: auto;
+  max-height: calc(100vh - 112px);
+  aspect-ratio: 4 / 3;
+  margin: 0 auto;
+  object-fit: contain;
+  background: #10191e;
 }
 
 .sample-caption {
